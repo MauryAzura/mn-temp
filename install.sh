@@ -8,8 +8,8 @@ os=$ID
 
 # Comprobar si es Fedora
 if [ "$os" = "fedora" ]; then
-    sudo dnf install sensors
+    sudo dnf install sensors -y 
 fi
 if [ "$os" = "arch" ]; then
-    sudo pacman -S lm_sensors
+    sudo pacman -S lm_sensors -y
 fi
