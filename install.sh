@@ -11,6 +11,6 @@ if [ "$os" = "fedora" ]; then
     sudo dnf install sensors -y 
 fi
 if [ "$os" = "arch" ]; then
-    yes | sudo pacman -S lm_sensors
+    S | sudo pacman -S lm_sensors
 
 fi
